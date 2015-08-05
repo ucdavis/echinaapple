@@ -7,15 +7,14 @@ header {
     max-width: 1200px;
     width: 80%;
     margin: 0 auto;
-    min-width: 400px; }
+    min-width: 400px;
+    overflow: hidden; }
     header .header_contents .header_logo {
-      display: inline-block;
-      width: 30%;
-      vertical-align: top; }
+      display: inline-block; }
     header .header_contents nav {
       display: inline-block;
-      width: 59%;
-      vertical-align: middle; }
+      float: right;
+      margin-top: 5%; }
 
 .hero {
   background-color: orange; }
@@ -26,26 +25,37 @@ header {
 .main {
   background-color: purple; }
 
-#nav > a {
-  display: none; }
-#nav > ul > li {
-  width: 25%;
-  height: 100%;
-  float: left; }
-  #nav > ul > li > a {
-    font-size: 1.4rem; }
-#nav ul {
-  list-style-type: none; }
-#nav li {
-  position: relative; }
+#nav {
+  text-align: left;
+  margin-bottom: 20px; }
+  #nav > a {
+    display: none; }
+  #nav > ul > li {
+    height: 100%;
+    display: inline;
+    float: left; }
+    #nav > ul > li > a {
+      font-size: 1.6rem;
+      margin-right: 40px; }
+  #nav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px; }
+  #nav ul.submenu {
+    display: block;
+    position: absolute;
+    margin-left: 0px;
+    padding-left: 0px;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5px;
+    border: 1px solid #0CA2BB; }
+    #nav ul.submenu li {
+      position: relative; }
   #nav li a {
     text-decoration: none;
-    color: #5a585c;
+    color: #A6A6A6;
     font-family: "proxima-nova", arial, sans-serif; }
-  #nav li ul {
-    display: none;
-    position: absolute;
-    top: 100%; }
   #nav li:hover ul {
     display: block; }
 

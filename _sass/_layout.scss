@@ -1,37 +1,37 @@
 body {
-    margin:0px;
+    margin: 0px;
 }
+
 header {
     border-bottom: 1px solid $borders;
     .header_contents {
         @include container;
+        overflow:hidden;
         .header_logo {
-            display:inline-block;
-            width:30%;
-            vertical-align: top;
+            display: inline-block;
+            // width: 30%;
+
         }
         nav {
-            display:inline-block;
-            width:59%;
-            vertical-align: middle;
+            display: inline-block;
+            // width: 59%;
+            float:right;
+            margin-top:5%;
         }
     }
 }
+
 .hero {
-    background-color:orange;
-    .header_contents {
+    background-color: orange;
 
-    }
 }
+
 .banner {
-    background-color:green;
-    .banner_contents {
-
-    }
+    background-color: green;
+    .banner_contents {}
 }
-.main {
-    background-color:purple;
-    .main_contents {
 
-    }
+.main {
+    background-color: purple;
+    .main_contents {}
 }
