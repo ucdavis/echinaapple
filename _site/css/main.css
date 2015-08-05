@@ -1,0 +1,20 @@
+body {
+  margin: 0px; }
+
+header {
+  border-bottom: 1px solid #C8C7CC; }
+  header .header_contents {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    min-width: 400px;
+    overflow: hidden; }
+
+.hero {
+  background-color: orange; }
+
+.banner {
+  background-color: green; }
+
+.main {
+  background-color: purple; }

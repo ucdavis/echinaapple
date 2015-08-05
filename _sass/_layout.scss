@@ -1,0 +1,27 @@
+body {
+    margin:0px;
+}
+header {
+    border-bottom: 1px solid $borders;
+    .header_contents {
+        @include container;
+    }
+}
+.hero {
+    background-color:orange;
+    .header_contents {
+
+    }
+}
+.banner {
+    background-color:green;
+    .banner_contents {
+
+    }
+}
+.main {
+    background-color:purple;
+    .main_contents {
+
+    }
+}
