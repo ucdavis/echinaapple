@@ -3,15 +3,26 @@
         display:none;
    }
    > ul {
-        height: 3.75em;
+        // height: 3.75em;
    }
    > ul > li {
         width: 25%;
         height: 100%;
         float: left;
+        > a {
+            font-size:1.4rem;
+        }
+   }
+   ul {
+    list-style-type: none;
    }
    li {
         position:relative;
+        a {
+            text-decoration: none;
+            color:$secondary-font;
+            font-family: $sans-serif;
+        }
         ul {
             display:none;
             position: absolute;
