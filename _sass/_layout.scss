@@ -34,15 +34,24 @@ header {
     height:500px;
 }
 
-.banner {
+.banner-homepage {
     background-color: #f1f1f1;
     border-bottom:1px solid $borders;
+    border-top:1px solid $borders;
+    padding:1.5% 0%;
     .banner_contents {
         text-align:center;
+        img {
+            margin-right:2%;
+            &:last-child {
+                margin-right:0%;
+            }
+        }
     }
 }
 
 .main {
-    background-color: purple;
-    .main_contents {}
+    .main_contents {
+
+    }
 }

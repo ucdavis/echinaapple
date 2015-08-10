@@ -31,6 +31,9 @@ p {
 	font-size:1.6rem;
 	font-family:$serif;
 	color:$primary-font;
+	.callout & {
+		font-size:1.8rem;
+	}
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,6 +45,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-family:$sans-serif;
 }
 h1, .h1 {
+	.callout & {
+		font-size:3rem;
+	}
 }
 h2, .h2 {
 
