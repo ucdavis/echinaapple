@@ -9,26 +9,37 @@ header {
         overflow:hidden;
         .header_logo {
             display: inline-block;
-            // width: 30%;
+            img {
+                width:65%;
+            }
 
         }
         nav {
             display: inline-block;
             // width: 59%;
             float:right;
-            margin-top:5%;
+            margin-top:3%;
         }
     }
 }
 
 .hero {
-    background-color: orange;
-
+    background-image:url(/media/ip-banner.jpg);
+    background-repeat:no-repeat; // no-repeat
+    background-position: center bottom;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    height:500px;
 }
 
 .banner {
-    background-color: green;
-    .banner_contents {}
+    background-color: #f1f1f1;
+    border-bottom:1px solid $borders;
+    .banner_contents {
+        text-align:center;
+    }
 }
 
 .main {

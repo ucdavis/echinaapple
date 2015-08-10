@@ -10,8 +10,11 @@
         display: inline;
         float:left;
         > a {
-            font-size: 1.6rem;
+            font-size: 1.8rem;
             margin-right:40px;
+            &:hover {
+                color:$primary-color;
+            }
         }
     }
     ul {
@@ -20,7 +23,7 @@
         padding-left:0px;
     }
     ul.submenu {
-        display: block;;
+        display: none;
         position: absolute;
         margin-left:0px;
         padding-left:0px;
@@ -30,6 +33,13 @@
         border:1px solid $echina-teal;
         li {
             position:relative;
+            padding:7px;
+            a {
+                font-size:1.6rem;
+                &:hover {
+                    color:$primary-color;
+                }
+            }
         }
     }
     li {
