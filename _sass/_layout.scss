@@ -63,7 +63,6 @@ footer {
         .foot_top{
             border-bottom:1px solid $borders;
             padding-bottom:8px;
-            margin-bottom:8px;
         }
         .nav-item {
             vertical-align:middle;
@@ -82,6 +81,15 @@ footer {
                 padding-top:0px;
                 padding-bottom:0px;
                 padding-left:0px;
+                color:$tertiary-font;
+                font-size:1.4rem;
+                font-family: $sans-serif;
+                a {
+                    color:$tertiary-font;
+                    &:hover {
+                        color:$echina-yellow;
+                    }
+                }
                 &:last-child {
                     border-right:none;
                 }
