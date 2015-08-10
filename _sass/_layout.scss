@@ -55,3 +55,38 @@ header {
 
     }
 }
+footer {
+    margin-top:6%;
+    margin-bottom:4%;
+    .footer_contents {
+        @include container;;
+        .foot_top{
+            border-bottom:1px solid $borders;
+            padding-bottom:8px;
+            margin-bottom:8px;
+        }
+        .nav-item {
+            vertical-align:middle;
+            display:block;
+        }
+        ul.nav-list {
+            list-style-type: none;
+            padding-left:0px;
+            margin-bottom:0px;
+            display:inline-block;
+            li {
+                display:inline-block;
+                border-right:1px solid $borders;
+                padding-right:10px;
+                margin-right:10px;
+                padding-top:0px;
+                padding-bottom:0px;
+                padding-left:0px;
+                &:last-child {
+                    border-right:none;
+                }
+            }
+        }
+    }
+    
+}
