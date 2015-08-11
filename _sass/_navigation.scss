@@ -10,10 +10,11 @@
         display: inline;
         float:left;
         > a {
-            font-size: 1.8rem;
+            font-size: 1.4rem;
             margin-right:40px;
+            color:$tertiary-font;
             &:hover {
-                color:$primary-color;
+                color:$echina-teal;
             }
         }
     }
@@ -35,9 +36,10 @@
             position:relative;
             padding:7px;
             a {
-                font-size:1.6rem;
+                font-size:1.4rem;
+                color:$tertiary-font;
                 &:hover {
-                    color:$primary-color;
+                    color:$echina-teal;
                 }
             }
         }

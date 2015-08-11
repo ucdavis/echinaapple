@@ -9,16 +9,12 @@ header {
         overflow:hidden;
         .header_logo {
             display: inline-block;
-            img {
-                width:65%;
-            }
-
         }
         nav {
             display: inline-block;
             // width: 59%;
             float:right;
-            margin-top:3%;
+            margin-top:2.5%;
         }
     }
 }
@@ -31,7 +27,10 @@ header {
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
-    height:500px;
+    height:490px;
+    .hero_contents {
+        @include container;
+    }
 }
 
 .banner-homepage {
@@ -84,10 +83,13 @@ footer {
                 color:$tertiary-font;
                 font-size:1.4rem;
                 font-family: $sans-serif;
+                &.no-bord {
+                    border-right:none;
+                }
                 a {
                     color:$tertiary-font;
                     &:hover {
-                        color:$echina-yellow;
+                        color:$echina-teal;
                     }
                 }
                 &:last-child {
