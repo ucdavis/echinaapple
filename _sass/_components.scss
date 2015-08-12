@@ -22,9 +22,12 @@
     	float:right;
     }
     ul.sectionul {
+    	padding-left:0px;
+    	background-color:purple;
     	li {
     		display:inline-block;
-    		width:33%;
+    		width:30%;
+    		background-color:green;
     		vertical-align: top;
     		a {
 

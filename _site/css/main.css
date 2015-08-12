@@ -493,10 +493,14 @@ there.
 .float-right {
   float: right; }
 
-ul.sectionul li {
-  display: inline-block;
-  width: 33%;
-  vertical-align: top; }
+ul.sectionul {
+  padding-left: 0px;
+  background-color: purple; }
+  ul.sectionul li {
+    display: inline-block;
+    width: 30%;
+    background-color: green;
+    vertical-align: top; }
 
 html {
   font-size: 10px;
