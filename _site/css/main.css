@@ -493,6 +493,11 @@ there.
 .float-right {
   float: right; }
 
+ul.sectionul li {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top; }
+
 html {
   font-size: 10px;
   -webkit-font-smoothing: antialiased;
