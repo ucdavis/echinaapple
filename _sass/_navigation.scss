@@ -10,9 +10,9 @@
         display: inline;
         float:left;
         > a {
-            font-size: 1.4rem;
+            font-size: 1.6rem;
             margin-right:40px;
-            color:$tertiary-font;
+            color:$secondary-font;
             &:hover {
                 color:$echina-teal;
             }
@@ -31,13 +31,13 @@
         background-color:#fff;
         border-radius:2px;
         padding:5px;
-        border:1px solid $echina-teal;
+        border:1px solid $borders;
         li {
             position:relative;
             padding:7px;
             a {
-                font-size:1.4rem;
-                color:$tertiary-font;
+                font-size:1.6rem;
+                color:$secondary-font;
                 &:hover {
                     color:$echina-teal;
                 }

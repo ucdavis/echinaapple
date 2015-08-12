@@ -5,3 +5,19 @@
 	margin-top:5%;
 	margin-bottom:5%;
 }
+
+// banners:
+.banner {
+	background-color:$echina-teal;
+	height:175px;
+	.banner_contents {
+		@include container;
+
+	}
+}
+.main {
+	padding:4% 0%;
+	.main_contents {
+		@include container;
+	}
+}
