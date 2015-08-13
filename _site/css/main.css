@@ -507,6 +507,9 @@ there.
 .float-right {
   float: right; }
 
+.bg-yellow {
+  background-color: #FFAF34 !important; }
+
 ul.sectionul {
   padding-left: 0px;
   background-color: purple; }
@@ -526,7 +529,10 @@ html {
       font-size: 8px; } }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #1676B0; }
+  a:hover {
+    color: #ACC73C; }
 
 ul {
   padding-left: 0px; }
