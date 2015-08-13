@@ -401,7 +401,7 @@ there.
 
 .banner {
   background-color: #0CA2BB;
-  height: 150px; }
+  height: 125px; }
   .banner .banner_contents {
     max-width: 1200px;
     width: 80%;
@@ -510,6 +510,18 @@ there.
 .bg-yellow {
   background-color: #FFAF34 !important; }
 
+.bg-red {
+  background-color: #E05D41 !important; }
+
+.bg-teal {
+  background-color: #0CA2BB !important; }
+
+.bg-blue {
+  background-color: #1676B0 !important; }
+
+.bg-green {
+  background-color: #ACC73C !important; }
+
 ul.sectionul {
   padding-left: 0px;
   background-color: purple; }
@@ -567,8 +579,8 @@ h1, h2, h3, h4, h5, h6 {
 .banner h1, .banner .h1 {
   color: #fff;
   margin: 0px;
-  font-size: 3.6rem;
-  padding-top: 5.5%; }
+  font-size: 3.2rem;
+  padding-top: 55px; }
 
 .right_col h3, .right_col .h3 {
   font-size: 1.6rem;
