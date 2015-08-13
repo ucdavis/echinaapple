@@ -18,7 +18,20 @@ header {
         }
     }
 }
-
+.left_col {
+    width:66%;
+    vertical-align:top;
+    padding-right:7%;
+    display:inline-block;
+}
+.right_col {
+    width:30%;
+    vertical-align:top;
+    display:inline-block;
+    border:1px solid $borders;
+    background-color:$bg-color;
+    padding:16px 20px;
+}
 .hero {
     background-image:url(/media/ip-banner.jpg);
     background-repeat:no-repeat; // no-repeat

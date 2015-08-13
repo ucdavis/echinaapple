@@ -21,8 +21,15 @@ ol {
 	}
 }
 ul {
+	padding-left:0px;
 	li {
-
+		font-size:1.5rem;
+		letter-spacing:.025rem;
+		font-family:$serif;
+		color:$secondary-font;
+		a {
+			// font-size1.5rem;
+		}
 	}
 }
 p {
@@ -33,6 +40,10 @@ p {
 	color:$primary-font;
 	.callout & {
 		font-size:1.8rem;
+	}
+	.right_col & {
+		font-size:1.4rem;
+		column-rule: $secondary-font;
 	}
 }
 
@@ -52,14 +63,19 @@ h1, .h1 {
 		color:#fff;
 		margin:0px;
 		font-size:3.6rem;
-		padding-top:6%;
+		padding-top:5.5%;
 	}
 }
 h2, .h2 {
 
 }
 h3, .h3 {
-
+	.right_col & {
+		font-size:1.6rem;
+		text-transform:uppercase;
+		margin-top:0px;
+		color:$echina-teal;
+	}
 }
 h4, .h4 {
 
