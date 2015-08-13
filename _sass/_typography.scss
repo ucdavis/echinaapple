@@ -35,6 +35,9 @@ ul {
 			// font-size1.5rem;
 		}
 	}
+	&.no-bullet li {
+		list-style-type: none;
+	}
 }
 p {
 	line-height:1.625;
@@ -71,9 +74,10 @@ h1, .h1 {
 	}
 }
 h2, .h2 {
-
+	font-size:2.4rem;
 }
 h3, .h3 {
+	font-size:2rem;
 	.right_col & {
 		font-size:1.6rem;
 		text-transform:uppercase;
