@@ -432,6 +432,21 @@ there.
   .section--yellow h2 {
     background-color: #FFAF34; }
 
+.section--green {
+  border-bottom: 4px solid #ACC73C; }
+  .section--green h2 {
+    background-color: #ACC73C; }
+
+.section--teal {
+  border-bottom: 4px solid #0CA2BB; }
+  .section--teal h2 {
+    background-color: #0CA2BB; }
+
+.section--red {
+  border-bottom: 4px solid #E05D41; }
+  .section--red h2 {
+    background-color: #E05D41; }
+
 .nav_wrapper {
   background-color: #1676B0; }
 
