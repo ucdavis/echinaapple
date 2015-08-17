@@ -21,3 +21,24 @@
 		@include container;
 	}
 }
+.btn-main {
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.section-header {
+	border-bottom:4px solid $echina-blue;
+	margin-top:6%;
+	h2 {
+		color:#fff;
+		background-color:$echina-blue;
+		display:inline;
+		padding:10px 16px 6px 16px;
+		margin:0px;
+	}
+}
+.section--yellow {
+	border-bottom:4px solid $echina-yellow;
+	h2 {
+		background-color:$echina-yellow;
+	}
+}

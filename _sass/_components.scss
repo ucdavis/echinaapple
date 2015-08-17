@@ -9,6 +9,10 @@
         color:#fff;
         text-transform: uppercase;
         text-decoration:none;
+        &:hover {
+            opacity:.85;
+            color:#fff;
+        }
     }
     .btn-yellow {
         @extend .btn;

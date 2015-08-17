@@ -413,6 +413,25 @@ there.
     margin: 0 auto;
     min-width: 400px; }
 
+.btn-main {
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+.section-header {
+  border-bottom: 4px solid #1676B0;
+  margin-top: 6%; }
+  .section-header h2 {
+    color: #fff;
+    background-color: #1676B0;
+    display: inline;
+    padding: 10px 16px 6px 16px;
+    margin: 0px; }
+
+.section--yellow {
+  border-bottom: 4px solid #FFAF34; }
+  .section--yellow h2 {
+    background-color: #FFAF34; }
+
 .nav_wrapper {
   background-color: #1676B0; }
 
@@ -556,6 +575,9 @@ there.
   color: #fff;
   text-transform: uppercase;
   text-decoration: none; }
+  .btn:hover, .btn-yellow:hover, .btn-green:hover, .btn-blue:hover, .btn-red:hover, .btn-teal:hover {
+    opacity: .85;
+    color: #fff; }
 
 .btn-yellow {
   background-color: #FFAF34; }
