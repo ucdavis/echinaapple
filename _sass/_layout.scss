@@ -40,9 +40,9 @@ header {
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
-    height:490px;
     .hero_contents {
         @include container;
+        padding:5% 0%;
     }
 }
 
