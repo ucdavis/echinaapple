@@ -2,9 +2,9 @@ body {
     margin: 0px;
 }
 header {
+  border-bottom:1px solid $borders;
     .header_contents {
         @include container;
-        border-bottom:1px solid $borders;
         overflow:hidden;
         // background-color:#000;
         .header_logo {
