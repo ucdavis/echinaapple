@@ -12,7 +12,23 @@
     }
     .btn-yellow {
         @extend .btn;
-        background-color: #C99700;
+        background-color: $echina-yellow;
+    }
+     .btn-green {
+        @extend .btn;
+        background-color: $echina-green;
+    }
+     .btn-blue {
+        @extend .btn;
+        background-color: $echina-blue;
+    }
+     .btn-red {
+        @extend .btn;
+        background-color: $echina-red;
+    }
+    .btn-teal {
+        @extend .btn;
+        background-color: $echina-teal;
     }
     .t-center {
         text-align: center;
