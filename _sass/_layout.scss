@@ -1,21 +1,20 @@
 body {
     margin: 0px;
 }
-
 header {
-    border-bottom: 1px solid $borders;
     .header_contents {
         @include container;
+        border-bottom:1px solid $borders;
         overflow:hidden;
+        // background-color:#000;
         .header_logo {
             display: inline-block;
         }
-        nav {
-            display: inline-block;
-            // width: 59%;
-            float:right;
-            margin-top:2.5%;
-        }
+        // nav {
+        //     display: inline-block;
+        //     float:right;
+        //     margin-top:2.5%;
+        // }
     }
 }
 .left_col {
@@ -40,9 +39,10 @@ header {
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
+    border-bottom:1px solid $borders;
     .hero_contents {
         @include container;
-        padding:5% 0%;
+        padding:12% 0%;
     }
 }
 
