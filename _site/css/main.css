@@ -28,14 +28,13 @@ header {
   padding: 16px 20px; }
 
 .hero {
-  background-image: url(/media/ip-banner.jpg);
+  background-image: url(/media/apple_banner.jpg);
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: cover;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
-  background-size: 100%;
-  border-bottom: 1px solid #C8C7CC; }
+  background-size: 100%; }
   .hero .hero_contents {
     max-width: 1200px;
     width: 80%;
@@ -419,7 +418,8 @@ there.
 
 .section-header {
   border-bottom: 4px solid #1676B0;
-  margin-top: 6%; }
+  margin-top: 6%;
+  margin-bottom: 2%; }
   .section-header h2 {
     color: #fff;
     background-color: #1676B0;
@@ -658,14 +658,14 @@ a {
   a:hover {
     color: #ACC73C; }
 
-ul {
+ul, ol {
   padding-left: 0px; }
-  ul li {
+  ul li, ol li {
     font-size: 1.5rem;
     letter-spacing: .025rem;
     font-family: "ff-tisa-web-pro", Georgia, serif;
     color: #333433; }
-  ul.no-bullet li {
+  ul.no-bullet li, ol.no-bullet li {
     list-style-type: none; }
 
 p {
