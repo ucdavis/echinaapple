@@ -96,6 +96,14 @@
             width: 30%;
             background-color: green;
             vertical-align: top;
-            a {}
+            a {
+                
+            }
         }
     }
+hr {
+    border-top:1px solid $borders;
+    border-bottom:none;
+    border-right:none;
+    border-left:none;
+}

@@ -661,6 +661,12 @@ ul.sectionul {
     background-color: green;
     vertical-align: top; }
 
+hr {
+  border-top: 1px solid #C8C7CC;
+  border-bottom: none;
+  border-right: none;
+  border-left: none; }
+
 html {
   font-size: 10px;
   -webkit-font-smoothing: antialiased;
