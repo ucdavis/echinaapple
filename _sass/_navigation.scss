@@ -19,6 +19,9 @@
         font-size:1.6rem;
         display: block;
         color:$tertiary-font;
+        &:hover {
+            color:$echina-teal;
+        }
         &:active {
             background-color: #c00 !important;
         }
