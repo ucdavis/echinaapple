@@ -543,7 +543,7 @@ there.
     /* 50 */
     text-align: left;
     text-indent: -9999px;
-    background-color: #e15a1f;
+    background-color: #1676B0;
     position: relative; }
 
   #nav > a:before,
@@ -575,17 +575,14 @@ there.
 
   #nav > ul > li {
     width: 100%;
-    float: none; }
+    float: none;
+    background-color: #fff; }
 
   #nav > ul > li > a {
     height: auto;
     text-align: left;
     padding: 0 0.833em;
     /* 20 (24) */ }
-
-  #nav > ul > li:not(:last-child) > a {
-    border-right: none;
-    border-bottom: 1px solid #cc470d; }
 
   /* second level */
   #nav li ul {
