@@ -5,7 +5,16 @@
 	margin-top:5%;
 	margin-bottom:5%;
 }
-
+// sections
+// learning materials
+.presentation_div {
+	img {
+		background-color:#000;
+		padding:4px;
+		// border:2px solid $echina-yellow;
+	}
+	min-height:400px;
+}
 // banners:
 .banner {
 	background-color:$echina-teal;
