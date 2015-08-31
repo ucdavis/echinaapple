@@ -681,6 +681,10 @@ hr {
   border-right: none;
   border-left: none; }
 
+iframe.iframe_tools {
+  width: 100%;
+  height: 1000px; }
+
 html {
   font-size: 10px;
   -webkit-font-smoothing: antialiased;
