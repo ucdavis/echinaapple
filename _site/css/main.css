@@ -486,8 +486,6 @@ td:last-child {
     color: #5a585c; }
     #nav li a:hover {
       color: #0CA2BB; }
-    #nav li a:active {
-      background-color: #c00 !important; }
 
 /* first level */
 #nav > a {
@@ -511,6 +509,8 @@ td:last-child {
   top: 100%; }
   #nav li ul a {
     color: #fff; }
+    #nav li ul a:hover {
+      color: #fff; }
 
 #nav li:hover ul {
   display: block;

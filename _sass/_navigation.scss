@@ -22,9 +22,9 @@
         &:hover {
             color:$echina-teal;
         }
-        &:active {
-            background-color: #c00 !important;
-        }
+        // &:active {
+        //     background-color: #c00 !important;
+        // }
     }
 }
 
@@ -85,6 +85,9 @@ header {
     top: 100%;
     a {
         color:#fff;
+        &:hover {
+            color:#fff;
+        }
     }
 }
 
