@@ -8,21 +8,12 @@ header {
     max-width: 1200px;
     width: 80%;
     margin: 0 auto;
-    min-width: 400px;
+    min-width: 300px;
     overflow: hidden; }
     header .header_contents .header_logo {
       display: inline-block; }
 
-.left_col {
-  width: 66%;
-  vertical-align: top;
-  padding-right: 7%;
-  display: inline-block; }
-
 .right_col {
-  width: 30%;
-  vertical-align: top;
-  display: inline-block;
   border: 1px solid #C8C7CC;
   background-color: #f5f5f5;
   padding: 16px 20px; }
@@ -40,7 +31,7 @@ header {
     max-width: 1200px;
     width: 80%;
     margin: 0 auto;
-    min-width: 400px;
+    min-width: 300px;
     padding: 12% 0%; }
 
 .banner-homepage {
@@ -62,7 +53,7 @@ footer {
     max-width: 1200px;
     width: 80%;
     margin: 0 auto;
-    min-width: 400px; }
+    min-width: 300px; }
     footer .footer_contents .foot_top {
       border-bottom: 1px solid #C8C7CC;
       padding-bottom: 8px; }
@@ -104,14 +95,6 @@ footer {
 */
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; }
-
 .column,
 .columns {
   width: 100%;
@@ -409,7 +392,7 @@ there.
     max-width: 1200px;
     width: 80%;
     margin: 0 auto;
-    min-width: 400px; }
+    min-width: 300px; }
 
 .main {
   padding: 4% 0%; }
@@ -417,7 +400,7 @@ there.
     max-width: 1200px;
     width: 80%;
     margin: 0 auto;
-    min-width: 400px; }
+    min-width: 300px; }
 
 .btn-main {
   margin-top: 2%;
@@ -612,13 +595,14 @@ td:last-child {
     padding-top: 0; } }
 .btn, .btn-yellow, .btn-green, .btn-blue, .btn-red, .btn-teal {
   padding: 14px 30px 12px;
-  margin-top: 5%;
+  margin-top: 2.5%;
   box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.15) inset;
   border-radius: 2px;
   font-family: "proxima-nova", arial, sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
   color: #fff;
+  display: inline-block;
   text-transform: uppercase;
   text-decoration: none; }
   .btn:hover, .btn-yellow:hover, .btn-green:hover, .btn-blue:hover, .btn-red:hover, .btn-teal:hover {
