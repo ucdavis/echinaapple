@@ -15,7 +15,9 @@
         color: #fff;
     }
 }
-
+.presentation_div img {
+    max-width:100%;
+}
 .btn-yellow {
     @extend .btn;
     background-color: $echina-yellow;

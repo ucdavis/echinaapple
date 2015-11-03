@@ -139,11 +139,18 @@ header {
     #nav > ul > li {
         margin-right:5%;
     }
+    .search_form {
+        top:168px;
+    }
 }
 @media only screen and ( max-width: 640px)
 /* 640 */
 
 {
+    .search_form {
+        right:-30px;
+        top:30px;
+    }
     #nav {
         position: relative;
         top: auto;

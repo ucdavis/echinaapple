@@ -315,6 +315,10 @@ there.
   right: 2%;
   top: 100px; }
 
+form.st-default-search-input {
+  width: 150px;
+  height: 14px; }
+
 .callout {
   text-align: center;
   margin-top: 5%;
@@ -471,8 +475,15 @@ td:last-child {
     text-align: center; }
 
   #nav > ul > li {
-    margin-right: 5%; } }
+    margin-right: 5%; }
+
+  .search_form {
+    top: 168px; } }
 @media only screen and (max-width: 640px) {
+  .search_form {
+    right: -30px;
+    top: 30px; }
+
   #nav {
     position: relative;
     top: auto;
@@ -549,6 +560,9 @@ td:last-child {
   .btn:hover, .btn-yellow:hover, .btn-green:hover, .btn-blue:hover, .btn-red:hover, .btn-teal:hover {
     opacity: .85;
     color: #fff; }
+
+.presentation_div img {
+  max-width: 100%; }
 
 .btn-yellow {
   background-color: #FFAF34; }
