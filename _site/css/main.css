@@ -481,8 +481,10 @@ td:last-child {
     top: 168px; } }
 @media only screen and (max-width: 640px) {
   .search_form {
-    right: -30px;
+    right: -39%;
     top: 30px; }
+    .search_form input {
+      width: 100px !important; }
 
   #nav {
     position: relative;

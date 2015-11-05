@@ -148,8 +148,11 @@ header {
 
 {
     .search_form {
-        right:-30px;
+        right:-39%;
         top:30px;
+        input {
+            width:100px !important;
+        }
     }
     #nav {
         position: relative;
