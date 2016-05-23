@@ -89,9 +89,10 @@ function googleTranslateElementInit() {
             </li>
         </ul>
         <div class="search_form">
-        <form>
+        <!-- <gcse:search></gcse:search> -->
+        <!-- <form>
             <input type="text" class="st-default-search-input">
-        </form>
+        </form> -->
         
         </div>
     </nav>
@@ -136,7 +137,7 @@ function googleTranslateElementInit() {
         <div class="foot_bottom">
             <ul class="nav-list">
                 <li class="nav-list_item">Copyright © 2015 UC Reagents</li>
-                <li class="nav-list_item"><a href="/disclaimer">Disclaimer</a></li>
+                <!-- <li class="nav-list_item"><a href="/disclaimer">Disclaimer</a></li> -->
 
             </ul>
             <ul class="nav-list float-right">
@@ -167,6 +168,18 @@ function googleTranslateElementInit() {
   ga('create', 'UA-42069986-3', 'auto');
   ga('send', 'pageview');
 
+</script>
+
+<script>
+  (function() {
+    var cx = '009136857159380065839:hm77vkw5yow';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
 </script>
 
 </html>
