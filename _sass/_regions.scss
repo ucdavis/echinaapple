@@ -97,3 +97,12 @@ td:first-child {
 th:last-child,
 td:last-child {
   padding-right: 0; }
+	.header-alert {
+		text-align:center;
+		background-color:$primary-color;
+		padding:10px;	
+		 p {
+			 color:#fff;
+		 }
+		 a {color:rgba(255,255,255,0.5)}
+	}

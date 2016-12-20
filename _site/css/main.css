@@ -396,6 +396,15 @@ th:last-child,
 td:last-child {
   padding-right: 0; }
 
+.header-alert {
+  text-align: center;
+  background-color: #421B4A;
+  padding: 10px; }
+  .header-alert p {
+    color: #fff; }
+  .header-alert a {
+    color: rgba(255, 255, 255, 0.5); }
+
 #nav {
   width: 65%;
   position: absolute;
