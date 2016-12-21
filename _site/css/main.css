@@ -398,12 +398,13 @@ td:last-child {
 
 .header-alert {
   text-align: center;
-  background-color: #421B4A;
+  background-color: #63296f;
   padding: 10px; }
   .header-alert p {
-    color: #fff; }
+    color: #fff;
+    font-size: 2rem; }
   .header-alert a {
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgba(255, 255, 255, 0.75); }
 
 #nav {
   width: 65%;
