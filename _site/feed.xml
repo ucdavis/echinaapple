@@ -5,8 +5,8 @@
     <description>UC Davis and Cornell's project on Apples in China</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Dec 2016 14:53:00 -0800</pubDate>
-    <lastBuildDate>Wed, 21 Dec 2016 14:53:00 -0800</lastBuildDate>
+    <pubDate>Wed, 21 Dec 2016 15:02:52 -0800</pubDate>
+    <lastBuildDate>Wed, 21 Dec 2016 15:02:52 -0800</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
   </channel>
